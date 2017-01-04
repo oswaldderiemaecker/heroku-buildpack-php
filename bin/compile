@@ -194,6 +194,7 @@ composer() {
 }
 export -f composer
 
+status "Bypassing composer ..."
 status "Preparing runtime environment..."
 
 # install this buildpack like a composer package
